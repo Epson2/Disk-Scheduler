@@ -42,3 +42,31 @@ This project simulates how an operating system manages disk I/O requests using d
 - Data Structure: Treap (Randomized Balanced BST)
 - Compiler: GCC / Clang
 
+# Input Format
+
+Example:
+
+1. FCFS 100 50
+2. 3
+3. 5 55
+4. 5 40
+5. 20 60
+
+# Explanation:
+
+- Algorithm DiskSize InitialHead
+- NumberOfRequests
+- ArrivalTime Track
+- ArrivalTime Track
+...
+# Example Output
+
+1. 55 40 60
+2. 30
+3. 30
+
+# Where:
+
+- First line = servicing order
+- Second line = total seek distance
+- Third line = total completion time
